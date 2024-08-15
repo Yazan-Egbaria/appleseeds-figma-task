@@ -26,12 +26,40 @@ body {
     width: 700px;
     height: 100%;
     padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.content-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+    gap: 4px;
+}
+
+.content-header h1 {
+    font-size: 2rem;
+    font-weight: normal;
+}
+.content-header p, a {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.content-header p a {
+    color: black;
+    text-decoration: underline;
+    transition: all 0.3s ease;
+}
+.content-header p a:hover {
+    color: #1c8eb7; ;
 }
 
 .content form {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
   flex-direction: column;
   margin-top: 10px;
 }
@@ -46,7 +74,7 @@ body {
   font-size: 15px;
   position: absolute;
   top: 0;
-  right: 10px;
+  right: 30px;
   color: #222222;
 }
 .content form label {
@@ -58,7 +86,6 @@ body {
 
 .content form input {
   width: 500px;
-  /* height: 40px; */
   border-radius: 10px;
   border: 2px solid #33333370;
   margin-bottom: 20px;
@@ -70,12 +97,6 @@ body {
   background-color: #222222;
   color: white;
   font-size: 16px;
-}
-
-.content ul {
-  width: 70%;
-  margin: 0 auto;
-  padding-left: 20px;
 }
 
 .content ul li {
@@ -106,35 +127,11 @@ body {
   margin-right: 8.1%;
 }
 
-
-
 .image { 
     width: 300px;
     height: 100%;
+    background-color: black;
 }
 
-.content-header {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: baseline;
-    gap: 4px;
-}
 
-.content-header h1 {
-    font-size: 2rem;
-    font-weight: normal;
-}
-.content-header p, a {
-    font-size: 1rem;
-    font-weight: lighter;
-}
-.content-header p a {
-    color: black;
-    text-decoration: underline;
-    transition: all 0.3s ease;
-}
-.content-header p a:hover {
-    color: #1c8eb7; ;
-}
 
