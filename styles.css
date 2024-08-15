@@ -196,7 +196,6 @@ button:hover {
 }
 
 .image {
-    width: 300px;
-    height: 100%;
-    background-color: black;
+  
+    background-image: url(photo-1632260260864-caf7fde5ec36.avif);
 }
