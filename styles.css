@@ -3,19 +3,23 @@
     text-decoration: none;
     list-style: none;
     padding: 0;
+    box-sizing: border-box;
 }
+
 body {
     width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .wrapper {
     width: 1000px;
-    height: 1000px;
-    border: 1px solid black;
-    border-radius: 10px;
+    height: 800px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .content {
@@ -128,4 +132,6 @@ body {
     height: 100%;
     background-color: black;
 }
+
+
 
